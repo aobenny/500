@@ -77,9 +77,9 @@ ipa 安装 (无需重写)|通过 shu 安装名为 app.ipa 的旧版本应用|htt
 ipa 安装 (需要重写)|通过 shu 安装名为 app.ipa 的旧版本应用|https://500.pages.dev/static/
 快速搜索 (需要重写)|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
 VIP Free 解析 (无需重写)|三个高可用解析, 在新窗口打开视频|https://500.pages.dev/static/vf.html
-VIP Free 解析 (需要重写)|三个高可用解析, 在新窗口打开视频|https://v.im/vf
+VIP Free 解析 (需要重写)|三个高可用解析, 在新窗口打开视频|https://vf.im
 VIP Video 解析 (无需重写)|三个高可用解析, 在当前窗口播放视频|https://500.pages.dev/static/vv.html
-VIP Video 解析 (需要重写)|三个高可用解析, 在当前窗口播放视频|https://v.im/vv
+VIP Video 解析 (需要重写)|三个高可用解析, 在当前窗口播放视频|https://vv.im
 
 
 ## 推荐

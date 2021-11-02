@@ -11,7 +11,7 @@ let body=`<!DOCTYPE html>
         <div class="container">
             <div class="header h1 text-center">
                 <h1>VIP Video 视频解析</h1>
-                <small>无需账户, 选取 API 粘贴视频地址后直接播放</small>
+                <small>无需账户, 选取 API 粘贴视频地址解析后直接播放</small>
             </div>
             <div class="main">
                 <form class="form-horizontal" method="post">
