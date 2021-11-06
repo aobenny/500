@@ -14,9 +14,9 @@
 
 本项目在多个 Quantumult X 配置文件上进行了修改、整理、收集和拓展
 
-本项目Github地址: [github.com/smxl/500](https://github.com/smxl/500)
+本项目Github地址: [https://github.com/smxl/500](https://github.com/smxl/500)
 
-本项目使用配置文件托管在 Cloudflare Pages 的快速链接: [500.pages.dev](https://500.pages.dev)
+本项目使用配置文件托管在 Cloudflare Pages 的快速链接: [https://500.pages.dev](https://500.pages.dev)
 
 
 ##  使用
@@ -55,11 +55,16 @@ hijacking|规则|https://500.pages.dev/xf-hijacking|https://raw.githubuserconten
 global|规则|https://500.pages.dev/xf-global|https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list
 privacy|规则|https://500.pages.dev/xf-privacy|https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Privacy.list
 tg|规则|https://500.pages.dev/xf-tg|https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Telegram/Telegram.list
+aqi|重写|https://500.pages.dev/xr-aqi|https://raw.githubusercontent.com/chouchoui/QuanX/master/iOS_Weather_AQI_Standard.conf
+adlite|重写|https://500.pages.dev/xr-adlite|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingLite/AdvertisingLite.conf
+adscript|重写|https://500.pages.dev/xr-adscript|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingScript/AdvertisingScript.conf
+upgrade|重写|https://500.pages.dev/xr-upgrade|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Upgrade/Upgrade.conf
 ads|重写|https://500.pages.dev/xr-ads|https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
 bili|重写|https://500.pages.dev/xr-bili|https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.qxrewrite
 emby|重写|https://500.pages.dev/xr-emby|https://subweb.oss-cn-hongkong.aliyuncs.com/Module/embyUnlocked.conf
-tiktok|重写|https://500.pages.dev/xr-tiktok|https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf
+tiktok-us|重写|https://500.pages.dev/xr-tiktok|https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf
 youtube|重写|https://500.pages.dev/xr-youtube|https://raw.githubusercontent.com/Orz-3/QuantumultX/master/YouTube.conf
+jike|重写|https://500.pages.dev/xr-jike|https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/jike/jike.qx.conf
 js|重写|https://500.pages.dev/xr-js|https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS.conf
 jsc|重写|https://500.pages.dev/xr-jsc|https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf
 box|重写|https://500.pages.dev/xr-box|https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf
@@ -67,7 +72,7 @@ v|重写|https://500.pages.dev/xr-v|https://raw.githubusercontent.com/smxl/500/m
 install|重写|https://500.pages.dev/xr-install|https://raw.githubusercontent.com/smxl/500/main/xd/install.conf
 search|重写|https://500.pages.dev/xr-search|https://raw.githubusercontent.com/smxl/500/main/xd/search.conf
 embyplus|重写|https://500.pages.dev/xr-embyplus|https://raw.githubusercontent.com/smxl/500/main/xd/embyplus.conf
-
+res|重写|https://500.pages.dev/xr-res|https://raw.githubusercontent.com/smxl/500/main/xd/res.conf
 
 ## 附带的小工具
 

@@ -1,13 +1,13 @@
 /ins itms-services://?action=download-manifest&url=https://500.pages.dev/static/ab.plist
-
 /x-github https://github.com/smxl/500
-
 /xb-sc-mmdb https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/Country.mmdb
 /xb-hh-mmdb https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
-
 /xd-config https://raw.githubusercontent.com/smxl/500/main/500.conf
 /xd-configcert https://raw.githubusercontent.com/smxl/500/main/500cert.conf
 /xd-cert https://raw.githubusercontent.com/smxl/500/main/static/23_03.cer
+/xj-ip https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-location-with-script.js
+/xv-free https://raw.githubusercontent.com/freefq/free/master/v2
+/xv-lite https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite
 
 /xf-ads https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list
 /xf-cn https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list
@@ -16,8 +16,8 @@
 /xf-global https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list
 /xf-privacy https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Privacy.list
 /xf-tg https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Telegram/Telegram.list
-/xf-fixcn https://raw.githubusercontent.com/smxl/500/main/xd/fixcn.list
 
+/xr-aqi https://raw.githubusercontent.com/chouchoui/QuanX/master/iOS_Weather_AQI_Standard.conf
 /xr-tiktok https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf
 /xr-emby https://subweb.oss-cn-hongkong.aliyuncs.com/Module/embyUnlocked.conf
 /xr-bili https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.qxrewrite
@@ -31,12 +31,9 @@
 /xr-js https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS.conf
 /xr-jsc https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf
 
-/xj-ip https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-location-with-script.js
-
+/xf-fixcn https://raw.githubusercontent.com/smxl/500/main/xd/fixcn.list
 /xr-install https://raw.githubusercontent.com/smxl/500/main/xd/install.conf
 /xr-v https://raw.githubusercontent.com/smxl/500/main/xd/v.conf
 /xr-search https://raw.githubusercontent.com/smxl/500/main/xd/search.conf
 /xr-embyplus https://raw.githubusercontent.com/smxl/500/main/xd/embyplus.conf
-
-/xv-free https://raw.githubusercontent.com/freefq/free/master/v2
-/xv-lite https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite
+/xr-res https://raw.githubusercontent.com/smxl/500/main/xd/res.conf
