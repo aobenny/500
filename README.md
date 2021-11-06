@@ -65,6 +65,7 @@ emby|重写|https://500.pages.dev/xr-emby|https://subweb.oss-cn-hongkong.aliyunc
 tiktok-us|重写|https://500.pages.dev/xr-tiktok|https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf
 youtube|重写|https://500.pages.dev/xr-youtube|https://raw.githubusercontent.com/Orz-3/QuantumultX/master/YouTube.conf
 jike|重写|https://500.pages.dev/xr-jike|https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/jike/jike.qx.conf
+lk|重写|https://500.pages.dev/xr-lk|https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Rewrite/Fake_Vip_Remote.txt
 js|重写|https://500.pages.dev/xr-js|https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS.conf
 jsc|重写|https://500.pages.dev/xr-jsc|https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf
 box|重写|https://500.pages.dev/xr-box|https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf
