@@ -1,5 +1,4 @@
-// 用法详见: https://github.com/smxl/500
-let body=`<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
     <head>
         <meta charset="utf-8" />
@@ -47,10 +46,7 @@ https://z1.m1907.cn/?jx=</textarea>
             </div>
             <div class="footer text-center">
                 <p>
-                    API 获取: <a href="https://zuh.yuh.im/go/?redurl=https://greasyfork.org/zh-CN/scripts/370634" target="_blank" rel="noopener noreferrer nofollow">2</a>
-                    <a href="https://zuh.yuh.im/go/?redurl=https://greasyfork.org/zh-CN/scripts/398195" target="_blank" rel="noopener noreferrer nofollow">3</a>
-                </p>
-                <p>修改自: <a href="https://zuh.yuh.im/go/?redurl=https://vip.yantuz.cn/" target="_blank" rel="noopener noreferrer nofollow">岩兔站</a></p>
+                    <a href="https://zuh.yuh.im/go/?redurl=https://greasyfork.org/zh-CN/scripts/370634" target="_blank" rel="noopener noreferrer nofollow">more API</a> <a href="https://zuh.yuh.im/go/?redurl=https://vip.yantuz.cn/" target="_blank" rel="noopener noreferrer nofollow">mod</a></p>
             </div>
         </div>
         <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -96,15 +92,3 @@ https://z1.m1907.cn/?jx=</textarea>
         </script>
     </body>
 </html>
-`
-
-const Status = "HTTP/1.1 200 OK";
-const Headers = {};
-const Data = body;
-const Response = {
-    status: Status,
-    //headers: Headers, // Optional.
-    body: Data // Optional.
-};
-
-$done(Response);
