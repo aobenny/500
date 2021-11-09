@@ -57,19 +57,19 @@ unbreak|规则|https://500.pages.dev/xf-unbreak|规则修正
 adlite|重写|https://500.pages.dev/xr-adlite|复写去广告
 ads|重写|https://500.pages.dev/xr-ads|重写去广告
 adscript|重写|https://500.pages.dev/xr-adscript|脚本去广告
-apple|重写|https://500.pages.dev/xr-apple|解锁受限的 Apple 服务
-aqi|重写|https://500.pages.dev/xr-aqi|天气 AQI US, 单独使用
+apple|重写|https://500.pages.dev/xr-apple|解锁受限的 Apple 服务, Apple News, AQI US, Siri 建议
+aqi|重写|https://500.pages.dev/xr-aqi|AQI US, 单独使用
 bili|重写|https://500.pages.dev/xr-bili|Bilibili 界面优化
 box|重写|https://500.pages.dev/xr-box|BoxJS
 emby|重写|https://500.pages.dev/xr-emby|Emby 解锁, 无通知
-jike|重写|https://500.pages.dev/xr-jike|即可去直播
+jike|重写|https://500.pages.dev/xr-jike|即刻去直播
 js|重写|https://500.pages.dev/xr-js|脚本去广告和比价
 jsc|重写|https://500.pages.dev/xr-jsc|脚本获取Cookies
 lk|重写|https://500.pages.dev/xr-lk|国外服务 Fake VIP
-tiktok-us|重写|https://500.pages.dev/xr-tiktok|TikTok US
+tiktok|重写|https://500.pages.dev/xr-tiktok|TikTok US
 upgrade|重写|https://500.pages.dev/xr-upgrade|屏蔽APP更新检查
 youtube|重写|https://500.pages.dev/xr-youtube|YouTube 去广告
-embyplus|重写|https://500.pages.dev/xr-embyplus|Emby 下载, 不建议
+embyplus|重写|https://500.pages.dev/xr-embyplus|Emby 下载
 install|重写|https://500.pages.dev/xr-install|shu 安装 app.ipa 重写
 res|重写|https://500.pages.dev/xr-res|大陆软件优化
 search|重写|https://500.pages.dev/xr-search|DuckDuckGo 搜索引擎重写
@@ -79,15 +79,17 @@ v|重写|https://500.pages.dev/xr-v|VIP 视频解析重写
 
 工具|作用|链接/补充
 -|-|-
+Apple News QX|访问 Apple News 的捷径, 配合本配置文件无需拔卡|https://www.icloud.com/shortcuts/09bd8758634943dfba6f41ce55b704da
+VIP Free|生成 VIP 视频解析网址的捷径, 可配合电视浏览器 + 远程输入法使用|https://www.icloud.com/shortcuts/62ff7617ceae415ca1a644a691a24df6
+无需重写||
+ipa 安装|通过 shu 安装名为 app.ipa 的旧版本应用|https://500.pages.dev/static/
+VIP Free 解析|三个高可用解析, 在新窗口打开视频|https://500.pages.dev/static/vf
+VIP Video 解析|三个高可用解析, 在当前窗口播放视频|https://500.pages.dev/static/vv
 需要重写||
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
 ipa 安装|通过 shu 安装名为 app.ipa 的旧版本应用|https://500.pages.dev/static/
 VIP Free 解析|三个高可用解析, 在新窗口打开视频|https://vf.im
 VIP Video 解析|三个高可用解析, 在当前窗口播放视频|https://vv.im
-无需重写||
-ipa 安装|通过 shu 安装名为 app.ipa 的旧版本应用|https://500.pages.dev/static/
-VIP Free 解析|三个高可用解析, 在新窗口打开视频|https://500.pages.dev/static/vf
-VIP Video 解析|三个高可用解析, 在当前窗口播放视频|https://500.pages.dev/static/vv
 
 
 ### 推荐

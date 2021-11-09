@@ -1,13 +1,12 @@
-/ins itms-services://?action=download-manifest&url=https://500.pages.dev/static/ab.plist
 /x-github https://github.com/smxl/500
 
 /xb-mmdb-hh https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
 /xb-mmdb-sc https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb
 
+/xj-ip https://github.com/crossutility/Quantumult-X/raw/master/sample-location-with-script.js
+
 /xv-free https://github.com/freefq/free/blob/master/v2?raw=true
 /xv-lite https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite
-
-/xj-ip https://github.com/crossutility/Quantumult-X/raw/master/sample-location-with-script.js
 
 /xf-ads https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Filter/Guard/Advertising.list
 /xf-cn https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Filter/China.list

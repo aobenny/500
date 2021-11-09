@@ -19,9 +19,8 @@ let body=`<!DOCTYPE html>
                         <label for="api" class="col-sm-2 control-label">选取 API</label>
                         <div class="col-sm-10">
                             <select id="jk" size="1" onchange="fnChange()" class="form-control">
-                                <optgroup label="推荐"><option value="https://okjx.cc/?url=">okjx</option></optgroup>
-                                <optgroup label="支持搜索"><option value="https://z1.m1907.cn/?jx=">m1907</option></optgroup>
-                                <optgroup label="较推荐"><option value="https://17kyun.com/api.php?url=">17kyun</option></optgroup>
+                                <optgroup label="推荐 - 无广"><option value="https://okjx.cc/?url=">okjx</option></optgroup>
+                                <optgroup label="支持搜索 - 有广"><option value="https://z1.m1907.cn/?jx=">m1907</option></optgroup>
                             </select>
                         </div>
                     </div>
@@ -56,7 +55,8 @@ let body=`<!DOCTYPE html>
             }
         </script>
     </body>
-</html>`
+</html>
+`
 
 const Status = "HTTP/1.1 200 OK";
 const Headers = {};
