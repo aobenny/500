@@ -62,13 +62,13 @@ box|重写|https://500.pages.dev/xr-box|BoxJS
 emby|重写|https://500.pages.dev/xr-emby|Emby 解锁, 无通知
 jike|重写|https://500.pages.dev/xr-jike|即刻去直播
 js|重写|https://500.pages.dev/xr-js|脚本去广告和比价
-jsc|重写|https://500.pages.dev/xr-jsc|脚本获取Cookies
+jsc|重写|https://500.pages.dev/xr-jsc|脚本获取 Cookies
 lk|重写|https://500.pages.dev/xr-lk|国外服务 Fake VIP
 tiktok|重写|https://500.pages.dev/xr-tiktok|TikTok US
 upgrade|重写|https://500.pages.dev/xr-upgrade|屏蔽APP更新检查
 youtube|重写|https://500.pages.dev/xr-youtube|YouTube 去广告
 embyplus|重写|https://500.pages.dev/xr-embyplus|Emby 下载
-install|重写|https://500.pages.dev/xr-install|shu 安装 app.ipa 重写
+install|重写|https://500.pages.dev/xr-install|Shu 安装 app.ipa 重写
 res|重写|https://500.pages.dev/xr-res|大陆软件优化
 search|重写|https://500.pages.dev/xr-search|DuckDuckGo 搜索引擎重写
 v|重写|https://500.pages.dev/xr-v|VIP 视频解析重写
@@ -89,7 +89,7 @@ VIP Video 解析|高可用解析, 在当前窗口播放视频|https://500.pages.
 ipa 安装|通过 shu 安装名为 app.ipa 的旧版本应用|https://500.pages.dev/static/
 VIP Video 解析|高可用解析, 在当前窗口播放视频|https://v.im
 
-[TikTok 21.0.0.ipa](https://transfer.sh/eFAkw1/TikTok%2021.0.0%20plist%20removed.ipa) 11.09.2021 实测可用 ipa 已经去除 iTunesMetadata.plist 文件, 请用自己账户下载的 ipa 解压缩后替换
+[TikTok 21.0.0.ipa](https://transfer.sh/eFAkw1/TikTok%2021.0.0%20plist%20removed.ipa?cYGngGphgS7n) 11.09.2021 实测可用 ipa 已经去除 iTunesMetadata.plist 文件, 请用自己账户下载的 ipa 解压缩后替换
 
 你可以下载旧版本 [iTunes 12.6.5.3](https://support.apple.com/zh-cn/HT208079) 配合 [iOS旧版应用下载v5.1](https://wwx.lanzoui.com/iBE4Emzgbkj) 抓包或者通过 [Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe) 输入 ```bpu MZBuy.woa``` 添加断点, 手动修改版本 ID 为 ```843820050```
 
@@ -97,14 +97,14 @@ VIP Video 解析|高可用解析, 在当前窗口播放视频|https://v.im
 
 + [Orz-3](https://github.com/Orz-3/QuantumultX)
 
-  > 由神机规则修改而来，修改了默认策略组，增加了正则筛选策略组，并集成了Nobyda的去广告脚本和重写，附带按task脚本作者分类的task订阅，可按需求订阅
+  > 由神机规则修改而来，修改了默认策略组，增加了正则筛选策略组，并集成了 Nobyda 的去广告脚本和重写，附带按 task 脚本作者分类的 [task 订阅](https://github.com/Orz-3/QuantumultX/tree/master/Task#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)，可按需求订阅
 
 + [KOP-XIAO](https://github.com/KOP-XIAO/QuantumultX)
 
   > 各个模块的说明非常详细，特别推荐 Quantumult X 资源解析器
 
 + [VirgilClyne](https://github.com/VirgilClyne/iRingo)
-  > 解锁完整的Apple功能和集成服务
+  > 解锁完整的 Apple 功能和集成服务
 
 + [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
   > 各平台的分流规则、复写规则及自动化脚本。
