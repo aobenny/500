@@ -1,6 +1,5 @@
 500 / Simple Config GeoIP for Quantumult X (QuantumultX) 预配置文件: Apple News 解锁规则 + 捷径, 去广告分流规则, TikTok 解锁 Rewrite, 神机分流规则, VIP 视频解析重写 + 捷径
 
-
 ## 简介
 
 > 特点: 
@@ -15,7 +14,6 @@
 本项目Github地址: [https://github.com/smxl/500](https://github.com/smxl/500)
 
 本项目使用配置文件托管在 Cloudflare Pages 的快速链接: [https://500.pages.dev](https://500.pages.dev)
-
 
 ##  使用
 
@@ -39,6 +37,8 @@
 > GeoIP2-CN 二选一即可
 > - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)
 > - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)
+
+500 是未经过缩短网址的配置文件, 更新次数少, 500-min 是利用 Pages 重定向过的配置文件, 更新频繁 [测试稳定性中, 如果出现多次响应问题会考虑其他方案, 如: https://git.io]
 
 ## 使用的分流规则和重写
 
@@ -73,23 +73,28 @@ res|重写|https://500.pages.dev/xr-res|大陆软件优化
 search|重写|https://500.pages.dev/xr-search|DuckDuckGo 搜索引擎重写
 v|重写|https://500.pages.dev/xr-v|VIP 视频解析重写
 
+## 捷径
+
+捷径|作用|链接
+-|-|-
+Apple News QX|访问 Apple News 的捷径, 配合本配置文件无需拔卡|https://www.icloud.com/shortcuts/09bd8758634943dfba6f41ce55b704da
+Pade|捷径打开: 支付宝 [主扫 + 被扫 + 健康码], 云闪付 [被扫 + 乘车码], 微信 [主扫]|https://www.icloud.com/shortcuts/40fa82979a7943b1a78239a1a04943d6
+VIP Free|生成 VIP 视频解析网址的捷径, 可配合电视浏览器 + 远程输入法使用|https://www.icloud.com/shortcuts/62ff7617ceae415ca1a644a691a24df6
+
 ## 小工具
 
 工具|作用|链接/补充
 -|-|-
-Apple News QX|访问 Apple News 的捷径, 配合本配置文件无需拔卡|https://www.icloud.com/shortcuts/09bd8758634943dfba6f41ce55b704da
-Pode|捷径打开: 支付宝 [主扫 + 被扫 + 健康码], 云闪付 [被扫 + 乘车码], 微信 [主扫]|https://www.icloud.com/shortcuts/40fa82979a7943b1a78239a1a04943d6
-VIP Free|生成 VIP 视频解析网址的捷径, 可配合电视浏览器 + 远程输入法使用|https://www.icloud.com/shortcuts/62ff7617ceae415ca1a644a691a24df6
 无需重写||
 ipa 安装|通过 shu 安装名为 app.ipa 的旧版本应用|https://500.pages.dev/static/
 VIP Free 解析|高可用解析, 在新窗口打开视频|https://500.pages.dev/static/vf
-VIP Video 解析|高可用解析, 在当前窗口播放视频|https://500.pages.dev/static/vv
+VIP Video 解析|高可用解析, 在当前窗口播放视频|https://500.pages.dev/v
 需要重写||
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
 ipa 安装|通过 shu 安装名为 app.ipa 的旧版本应用|https://500.pages.dev/static/
 VIP Video 解析|高可用解析, 在当前窗口播放视频|https://v.im
 
-[TikTok 21.0.0.ipa](https://transfer.sh/eFAkw1/TikTok%2021.0.0%20plist%20removed.ipa?cYGngGphgS7n) 11.09.2021 实测可用 ipa 已经去除 iTunesMetadata.plist 文件, 请用自己账户下载的 ipa 解压缩后替换
+[TikTok 21.0.0 plist removed.ipa](https://transfer.sh/eFAkw1/TikTok%2021.0.0%20plist%20removed.ipa?cYGngGphgS7n) 11.09.2021 实测可用, ipa 已经去除 iTunesMetadata.plist 文件, 请用自己账户下载的 ipa 解压缩后替换
 
 你可以下载旧版本 [iTunes 12.6.5.3](https://support.apple.com/zh-cn/HT208079) 配合 [iOS旧版应用下载v5.1](https://wwx.lanzoui.com/iBE4Emzgbkj) 抓包或者通过 [Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe) 输入 ```bpu MZBuy.woa``` 添加断点, 手动修改版本 ID 为 ```843820050```
 
