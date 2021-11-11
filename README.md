@@ -60,6 +60,7 @@ aqi|重写|https://500.pages.dev/xr-aqi|AQI US, 单独使用
 bili|重写|https://500.pages.dev/xr-bili|Bilibili 界面优化
 box|重写|https://500.pages.dev/xr-box|BoxJS
 emby|重写|https://500.pages.dev/xr-emby|Emby 解锁, 无通知
+fake|重写|https://500.pages.dev/xr-fake|Fake Pro 解锁, lk 的基础上进行了精简, 并增加了 Spotify Pro
 jike|重写|https://500.pages.dev/xr-jike|即刻去直播
 js|重写|https://500.pages.dev/xr-js|脚本去广告和比价
 jsc|重写|https://500.pages.dev/xr-jsc|脚本获取 Cookies
@@ -73,13 +74,20 @@ res|重写|https://500.pages.dev/xr-res|大陆软件优化
 search|重写|https://500.pages.dev/xr-search|DuckDuckGo 搜索引擎重写
 v|重写|https://500.pages.dev/xr-v|VIP 视频解析重写
 
+FAQ: 你需要根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk https://500.pages.dev/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效], 同理如此 ```fake https://500.pages.dev/xr-fake Fake Pro 解锁``` 是改规则的精简, 只针对 Spotify 进行了增加
+
 ## 捷径
+
+演示效果:
+1. https://500.pages.dev/archive/apple-news-hevc.mp4
 
 捷径|作用|链接
 -|-|-
-Apple News QX|访问 Apple News 的捷径, 配合本配置文件无需拔卡|https://www.icloud.com/shortcuts/09bd8758634943dfba6f41ce55b704da
-Pade|捷径打开: 支付宝 [主扫 + 被扫 + 健康码], 云闪付 [被扫 + 乘车码], 微信 [主扫]|https://www.icloud.com/shortcuts/40fa82979a7943b1a78239a1a04943d6
-VIP Free|生成 VIP 视频解析网址的捷径, 可配合电视浏览器 + 远程输入法使用|https://www.icloud.com/shortcuts/62ff7617ceae415ca1a644a691a24df6
+Apple News QX|访问 Apple News 的捷径, 配合本配置文件|https://500.pages.dev/sc-news
+Pade|捷径打开: 支付宝 [主扫 + 被扫 + 健康码], 云闪付 [被扫 + 乘车码], 微信 [主扫]|https://500.pages.dev/sc-pade
+VIP Free|生成 VIP 视频解析网址的捷径, 可配合电视浏览器 + 远程输入法使用|https://500.pages.dev/sc-vip
+
+FAQ: 你需要完成手机的基本设置才可以使用 Apple News QX, 比如修改 - 设置 - 通用 - 语言和地区 - 区域 - 美国 etc.
 
 ## 小工具
 
@@ -98,18 +106,20 @@ VIP Video 解析|高可用解析, 在当前窗口播放视频|https://v.im
 
 你可以下载旧版本 [iTunes 12.6.5.3](https://support.apple.com/zh-cn/HT208079) 配合 [iOS旧版应用下载v5.1](https://wwx.lanzoui.com/iBE4Emzgbkj) 抓包或者通过 [Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe) 输入 ```bpu MZBuy.woa``` 添加断点, 手动修改版本 ID 为 ```843820050```
 
+FAQ: 你需要使用非香港地区的代理才可以使用 TikTok, 这也是本配置文件默认不启用香港节点的原因
+
 ### 推荐
 
 + [Orz-3](https://github.com/Orz-3/QuantumultX)
 
-  > 由神机规则修改而来，修改了默认策略组，增加了正则筛选策略组，并集成了 Nobyda 的去广告脚本和重写，附带按 task 脚本作者分类的 [task 订阅](https://github.com/Orz-3/QuantumultX/tree/master/Task#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)，可按需求订阅
+  > 由神机规则修改而来, 修改了默认策略组, 增加了正则筛选策略组, 并集成了 Nobyda 的去广告脚本和重写, 附带按 task 脚本作者分类的 [task 订阅](https://github.com/Orz-3/QuantumultX/tree/master/Task#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95), 可按需求订阅
 
 + [KOP-XIAO](https://github.com/KOP-XIAO/QuantumultX)
 
-  > 各个模块的说明非常详细，特别推荐 Quantumult X 资源解析器
+  > 各个模块的说明非常详细, 特别推荐 Quantumult X 资源解析器
 
 + [VirgilClyne](https://github.com/VirgilClyne/iRingo)
   > 解锁完整的 Apple 功能和集成服务
 
 + [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
-  > 各平台的分流规则、复写规则及自动化脚本。
+  > 各平台的分流规则、复写规则及自动化脚本
