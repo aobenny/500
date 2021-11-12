@@ -1,11 +1,13 @@
 500 / Simple Config GeoIP for Quantumult X (QuantumultX) 预配置文件: Apple News 解锁规则 + 捷径, 去广告分流规则, TikTok 解锁 Rewrite, 神机分流规则, VIP 视频解析重写 + 捷径
 
 ## 简介
-
-> 特点: 
-> 
 > + 整合多个 Quantumult X 配置文件, 利用 GeoIP 特性, 剔除部分规则, 精简规则和配置文件
-> 
+- [使用方法](https://github.com/smxl/500#使用方法)
+- [分流规则和重写](https://github.com/smxl/500#分流规则和重写)
+- [捷径](https://github.com/smxl/500#捷径)
+- [小工具](https://github.com/smxl/500#小工具)
+- [Clash 配置](https://github.com/smxl/500#Clash 配置)
+- [推荐](https://github.com/smxl/500#推荐)
 
 ## 声明
 
@@ -15,7 +17,7 @@
 
 本项目使用配置文件托管在 Cloudflare Pages 的快速链接: [https://500.pages.dev](https://500.pages.dev)
 
-##  使用
+##  使用方法
 
 1. 选择一个配置文件, 下载或者复制
 
@@ -40,7 +42,7 @@
 
 500 是未经过缩短网址的配置文件, 更新次数少, 500-min 是利用 Pages 重定向过的配置文件, 更新频繁 [测试稳定性中, 如果出现多次响应问题会考虑其他方案, 如: https://git.io]
 
-## 使用的分流规则和重写
+## 分流规则和重写
 
 tag 名|规则/重写|短链|介绍
 -|-|-|-
@@ -107,6 +109,21 @@ VIP Video 解析|高可用解析, 在当前窗口播放视频|https://v.im
 你可以下载旧版本 [iTunes 12.6.5.3](https://support.apple.com/zh-cn/HT208079) 配合 [iOS旧版应用下载v5.1](https://wwx.lanzoui.com/iBE4Emzgbkj) 抓包或者通过 [Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe) 输入 ```bpu MZBuy.woa``` 添加断点, 手动修改版本 ID 为 ```843820050```
 
 FAQ: 你需要使用非香港地区的代理才可以使用 TikTok, 这也是本配置文件默认不启用香港节点的原因
+
+### Clash 配置
+
+iOS 也有了 Clash 客户端, 但是目前不支持 rule-set, 抽空搞了一个 Clash 配置文件, 使用了 proxy-providers, rule-providers 所以配置文件干净又好看
+
+如果需要使用自己的订阅, 你可以修改注释中的 ```你的订阅链接```, 然后取消掉配置中全部注释即可
+
+```
+proxy-providers:
+  # My:
+  #   type: http
+  #   path: ./my.yaml
+  #   url: https://api.10101.io/sub?target=clash&url=你的订阅链接&list=true
+...
+```
 
 ### 推荐
 

@@ -31,7 +31,7 @@ proxy-providers:
   # My:
   #   type: http
   #   path: ./my.yaml
-  #   url: https://api.10101.io/sub?target=clash&url=[你的订阅链接]&list=true
+  #   url: https://api.10101.io/sub?target=clash&url=你的订阅链接&list=true
   #   interval: 3600
   #   health-check:
   #       enable: false
