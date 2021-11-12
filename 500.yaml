@@ -91,14 +91,14 @@ rule-providers:
   mi:
     type: http
     behavior: domain
-    url: "https://github.com/smxl/500/raw/main/cd/mi.yaml"
+    url: "https://raw.githubusercontent.com/smxl/500/main/cd/mi.yaml"
     path: ./mi.yaml
     interval: 36000
     
   lan:
     type: http
     behavior: classical
-    url: "https://github.com/smxl/500/raw/main/cd/lan.yaml"
+    url: "https://raw.githubusercontent.com/smxl/500/main/cd/lan.yaml"
     path: ./lan.yaml
     interval: 3600
 
