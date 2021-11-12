@@ -23,9 +23,9 @@
 
 文件|地址|说明
 -|-|-
-23_03.cer|[23_03.cer](https://raw.githubusercontent.com/smxl/500/main/static/23_03.cer)|证书, Thor 生成无需 passphrase, 500-min-cert.conf 需安装
-500-min-cert.conf|[500-min-cert.conf](https://raw.githubusercontent.com/smxl/500/main/500-min-cert.conf)|需安装证书的配置文件, 已填写 p12 且无需 passphrase
-500-min.conf|[500-min.conf](https://raw.githubusercontent.com/smxl/500/main/500-min.conf)|无证书的配置文件
+23_03.cer|[23_03.cer](https://github.com/smxl/500/blob/main/static/23_03.cer?raw=true)|证书, Thor 生成无需 passphrase, 500-min-cert.conf 需安装
+500-min-cert.conf|[500-min-cert.conf](https://github.com/smxl/500/raw/main/500-min-cert.conf)|需安装证书的配置文件, 已填写 p12 且无需 passphrase
+500-min.conf|[500-min.conf](https://github.com/smxl/500/raw/main/500-min.conf)|无证书的配置文件
 2. Quantumult X - 风车 - 配置文件 -下载 - 粘贴 - 确定
 
 3. 可选: Mitm - 生成证书 - 配置证书 - 安装证书
@@ -40,7 +40,7 @@
 > - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)
 > - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)
 
-500 是未经过缩短网址的配置文件, 更新次数少, 500-min 是利用 Pages 重定向过的配置文件, 更新频繁 [测试稳定性中, 如果出现多次响应问题会考虑其他方案, 如: https://git.io]
+500 是未经过缩短网址的配置文件, 更新次数少, 500-min 是利用 Pages 重定向过的配置文件, 更新频繁
 
 ## 分流规则和重写
 
@@ -81,7 +81,7 @@ FAQ: 你需要根据自己的情况调整上述规则和重写是否需要启用
 ## 捷径
 
 演示效果:
-1. https://500.pages.dev/archive/apple-news-hevc.mp4
+- https://500.pages.dev/archive/apple-news-hevc.mp4
 
 捷径|作用|链接
 -|-|-
@@ -110,11 +110,13 @@ VIP Video 解析|高可用解析, 在当前窗口播放视频|https://v.im
 
 FAQ: 你需要使用非香港地区的代理才可以使用 TikTok, 这也是本配置文件默认不启用香港节点的原因
 
-### Clash 配置
+## Clash 配置
 
-iOS 也有了 Clash 客户端, 但是目前不支持 rule-set, 提前抽空搞了一个 Clash 配置文件, 使用了 proxy-providers, rule-providers 所以配置文件干净又简单
+抽空搞了一个 Clash 配置文件, 使用了 proxy-providers, rule-providers 所以配置文件干净又简单
 
-[500.yaml](https://github.com/smxl/500/raw/main/500.yaml)
+下载: [500.yaml](https://github.com/smxl/500/raw/main/500.yaml) 需要使用 [Premium Core](https://github.com/Dreamacro/clash/releases/tag/premium)
+
+iOS 也有了 Clash 客户端: [Choc](https://testflight.apple.com/join/J5QPqXKO), 但是目前不支持 rule-set
 
 如果需要使用自己的订阅, 你可以修改注释中的 ```你的订阅链接```, 然后取消掉配置中全部注释即可
 
@@ -127,7 +129,7 @@ proxy-providers:
 ...
 ```
 
-### 推荐
+## 推荐
 
 + [Orz-3](https://github.com/Orz-3/QuantumultX)
 
