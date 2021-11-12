@@ -1,0 +1,113 @@
+# 500 / Simple Config for Clash ver.11.11.2021
+# https://500.pages.dev
+# https://github.com/smxl/500
+port: 12330
+socks-port: 12331
+redir-port: 12332
+mixed-port: 12333
+
+external-controller: '127.0.0.1:9090'
+secret: ''
+
+allow-lan: true
+
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: true
+  default-nameserver:
+    - 119.29.29.29
+    - 101.101.101.101
+  nameserver:
+    - tls://101.101.101.101:853
+    - https://doh.pub/dns-query
+  fallback:
+    - https://doh.dns.sb/dns-query
+    - tls://1.0.0.1:853
+
+proxies:
+
+proxy-providers:
+  # My:
+  #   type: http
+  #   path: ./my.yaml
+  #   url: https://api.10101.io/sub?target=clash&url=[你的订阅链接]&list=true
+  #   interval: 3600
+  #   health-check:
+  #       enable: false
+  #       url: http://www.gstatic.com/generate_204
+  #       interval: 300
+  Lite:
+    type: http
+    path: ./lite.yaml
+    url: https://api.10101.io/sub?target=clash&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite&include=(US|美国|CA|加拿大)&list=true
+    interval: 3600
+    health-check:
+        enable: false
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+  Free:
+    type: http
+    path: ./free.yaml
+    url: https://api.10101.io/sub?target=clash&url=https://raw.githubusercontent.com/freefq/free/master/v2&include=(github)&list=true
+    interval: 3600
+    health-check:
+        enable: false
+        url: http://www.gstatic.com/generate_204
+        interval: 300
+
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - Auto
+      - Manual
+      # - Min
+
+  - name: Auto
+    type: url-test
+    proxies:
+    use:
+      - Lite
+      - Free
+    url: 'http://cp.cloudflare.com/generate_204'
+    interval: 300
+
+  - name: Manual
+    type: select
+    proxies:
+    use:
+      - Lite
+      - Free
+
+  # - name: Min
+  #   type: select
+  #   proxies:
+  #   use:
+  #     - My
+  #   url: 'http://cp.cloudflare.com/generate_204'
+
+rule-providers:
+  mi:
+    type: http
+    behavior: domain
+    url: "https://github.com/smxl/500/raw/main/cd/mi.yaml"
+    path: ./mi.yaml
+    interval: 36000
+    
+  lan:
+    type: http
+    behavior: classical
+    url: "https://github.com/smxl/500/raw/main/cd/lan.yaml"
+    path: ./lan.yaml
+    interval: 3600
+
+rules:
+  - PROCESS-NAME,Thunder,DIRECT
+  - PROCESS-NAME,uTorrent,DIRECT
+  - PROCESS-NAME,Thunder.exe,DIRECT
+  - PROCESS-NAME,uTorrent.exe,DIRECT
+  - RULE-SET,lan,DIRECT
+  - RULE-SET,mi,REJECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxy
