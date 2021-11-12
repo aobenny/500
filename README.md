@@ -6,7 +6,7 @@
 - [分流规则和重写](https://github.com/smxl/500#分流规则和重写)
 - [捷径](https://github.com/smxl/500#捷径)
 - [小工具](https://github.com/smxl/500#小工具)
-- [Clash 配置](https://github.com/smxl/500#Clash 配置)
+- [Clash 配置](https://github.com/smxl/500#clash-配置)
 - [推荐](https://github.com/smxl/500#推荐)
 
 ## 声明
@@ -112,7 +112,9 @@ FAQ: 你需要使用非香港地区的代理才可以使用 TikTok, 这也是本
 
 ### Clash 配置
 
-iOS 也有了 Clash 客户端, 但是目前不支持 rule-set, 抽空搞了一个 Clash 配置文件, 使用了 proxy-providers, rule-providers 所以配置文件干净又好看
+iOS 也有了 Clash 客户端, 但是目前不支持 rule-set, 提前抽空搞了一个 Clash 配置文件, 使用了 proxy-providers, rule-providers 所以配置文件干净又简单
+
+[500.yaml](https://github.com/smxl/500/raw/main/500.yaml)
 
 如果需要使用自己的订阅, 你可以修改注释中的 ```你的订阅链接```, 然后取消掉配置中全部注释即可
 
