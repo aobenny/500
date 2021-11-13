@@ -73,6 +73,7 @@ install|重写|https://500.pages.dev/xr-install|Shu 安装 app.ipa 重写
 res|重写|https://500.pages.dev/xr-res|大陆软件优化
 search|重写|https://500.pages.dev/xr-search|DuckDuckGo 搜索引擎重写
 v|重写|https://500.pages.dev/xr-v|VIP 视频解析重写
+video|重写|https://500.pages.dev/xr-video|视频重写 3in1, 含 VIP 视频解析重写, TikTok US, YouTube 去广告
 
 FAQ: 你可以根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk 重写 https://500.pages.dev/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效], 同理如此 ```fake https://500.pages.dev/xr-fake Fake Pro 解锁``` 是该规则的精简
 
@@ -99,7 +100,6 @@ VIP Free 解析|高可用解析, 在新窗口打开视频|https://500.pages.dev/
 VIP Video 解析|高可用解析, 在当前窗口播放视频|https://500.pages.dev/v
 需要重写||
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
-ipa 安装|通过 shu 安装名为 app.ipa 的旧版本应用|https://500.pages.dev/static/
 VIP Video 解析|高可用解析, 在当前窗口播放视频|https://v.im
 
 [TikTok 21.0.0 plist removed.ipa](https://transfer.sh/eFAkw1/TikTok%2021.0.0%20plist%20removed.ipa?cYGngGphgS7n) 11.09.2021 实测可用, ipa 已经去除 iTunesMetadata.plist 文件, 请用自己账户下载的 ipa 解压缩后替换

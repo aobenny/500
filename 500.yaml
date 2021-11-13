@@ -1,4 +1,4 @@
-# 500 / Simple Config for Clash ver.11.11.2021
+# 500 / Simple Config for Clash ver.11.13.2021
 # https://500.pages.dev
 # https://github.com/smxl/500
 port: 12330
@@ -37,24 +37,33 @@ proxy-providers:
   #       enable: false
   #       url: http://www.gstatic.com/generate_204
   #       interval: 300
-  Lite:
-    type: http
-    path: ./lite.yaml
-    url: https://api.10101.io/sub?target=clash&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite&include=(US|美国|CA|加拿大)&list=true
-    interval: 3600
-    health-check:
-        enable: false
-        url: http://www.gstatic.com/generate_204
-        interval: 300
   Free:
     type: http
     path: ./free.yaml
-    url: https://api.10101.io/sub?target=clash&url=https://raw.githubusercontent.com/freefq/free/master/v2&include=(github)&list=true
+    url: https://api.10101.io/sub?target=clash&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite|https://github.com/freefq/free/blob/master/v2?raw=true&list=true
     interval: 3600
     health-check:
         enable: false
         url: http://www.gstatic.com/generate_204
         interval: 300
+  # Lite:
+  #   type: http
+  #   path: ./lite.yaml
+  #   url: https://api.10101.io/sub?target=clash&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite&include=(US|美国|CA|加拿大)&list=true
+  #   interval: 3600
+  #   health-check:
+  #       enable: false
+  #       url: http://www.gstatic.com/generate_204
+  #       interval: 300
+  # Free:
+  #   type: http
+  #   path: ./free.yaml
+  #   url: https://api.10101.io/sub?target=clash&url=https://raw.githubusercontent.com/freefq/free/master/v2&include=(github)&list=true
+  #   interval: 3600
+  #   health-check:
+  #       enable: false
+  #       url: http://www.gstatic.com/generate_204
+  #       interval: 300
 
 proxy-groups:
   - name: Proxy
@@ -68,7 +77,6 @@ proxy-groups:
     type: url-test
     proxies:
     use:
-      - Lite
       - Free
     url: 'http://cp.cloudflare.com/generate_204'
     interval: 300
@@ -77,7 +85,6 @@ proxy-groups:
     type: select
     proxies:
     use:
-      - Lite
       - Free
 
   # - name: Min
