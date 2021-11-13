@@ -40,16 +40,14 @@
 > - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)
 > - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)
 
-500 是未经过缩短网址的配置文件, 更新次数少, 500-min 是利用 Pages 重定向过的配置文件, 更新频繁
-
 ## 分流规则和重写
 
-tag 名|规则/重写|短链|介绍
+tag 名|类型|短链|介绍
 -|-|-|-
 ads|规则|https://500.pages.dev/xf-ads|去广告阻止
 cn|规则|https://500.pages.dev/xf-cn|大陆服务直联
 global|规则|https://500.pages.dev/xf-global|国际服务
-hijacking|规则|https://500.pages.dev/xf-hijacking|劫持
+hijacking|规则|https://500.pages.dev/xf-hijacking|防劫持
 privacy|规则|https://500.pages.dev/xf-privacy|隐私
 tg|规则|https://500.pages.dev/xf-tg|Telegram
 unbreak|规则|https://500.pages.dev/xf-unbreak|规则修正
@@ -76,7 +74,7 @@ res|重写|https://500.pages.dev/xr-res|大陆软件优化
 search|重写|https://500.pages.dev/xr-search|DuckDuckGo 搜索引擎重写
 v|重写|https://500.pages.dev/xr-v|VIP 视频解析重写
 
-FAQ: 你需要根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk https://500.pages.dev/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效], 同理如此 ```fake https://500.pages.dev/xr-fake Fake Pro 解锁``` 是改规则的精简, 只针对 Spotify 进行了增加
+FAQ: 你可以根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk 重写 https://500.pages.dev/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效], 同理如此 ```fake https://500.pages.dev/xr-fake Fake Pro 解锁``` 是该规则的精简
 
 ## 捷径
 
