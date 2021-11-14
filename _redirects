@@ -5,9 +5,8 @@
 
 /xj-ip https://github.com/crossutility/Quantumult-X/raw/master/sample-location-with-script.js
 
-/xv-free https://github.com/freefq/free/blob/master/v2?raw=true
-/xv-lite https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite
 /xv-sub https://api.10101.io/sub?target=quanx&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite|https://github.com/freefq/free/blob/master/v2?raw=true&emoji=true&list=true&fdn=true&sort=true
+/xc-sub https://api.10101.io/sub?target=clash&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite|https://github.com/freefq/free/blob/master/v2?raw=true&list=true
 
 /xf-ads https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Filter/Guard/Advertising.list
 /xf-cn https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Filter/China.list

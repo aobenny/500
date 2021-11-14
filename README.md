@@ -112,15 +112,15 @@ FAQ: 你需要使用非香港地区的代理才可以使用 TikTok, 这也是本
 
 抽空搞了一个 Clash 配置文件, 使用了 proxy-providers, rule-providers 所以配置文件干净又简单
 
-下载: [500.yaml](https://github.com/smxl/500/raw/main/500.yaml) 需要使用 [Premium Core](https://github.com/Dreamacro/clash/releases/tag/premium)
+下载: [500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml) 需要使用 [Premium Core](https://github.com/Dreamacro/clash/releases/tag/premium)
 
-iOS 也有了 Clash 客户端: [Choc](https://testflight.apple.com/join/J5QPqXKO), 但是目前不支持 rule-set
+iOS 也有了 Clash 客户端: [Choc](https://testflight.apple.com/join/J5QPqXKO), 但是目前不支持 rule-set, 则可以使用 [500-min-clash-nset.yaml](https://github.com/smxl/500/raw/main/500-min-clash-nset.yaml)
 
 如果需要使用自己的订阅, 你可以修改注释中的 ```你的订阅链接```, 然后取消掉配置中全部注释即可
 
 ```
 proxy-providers:
-  # My:
+  # My: # 你也可以将 url 换成你的 clash 节点订阅链接
   #   type: http
   #   path: ./my.yaml
   #   url: https://api.10101.io/sub?target=clash&url=你的订阅链接&list=true
