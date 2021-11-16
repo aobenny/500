@@ -32,11 +32,11 @@
 
 4. 系统 - 设置 - 通用 - 关于 - 信任证书
 
-5. Quantumult X - 风车 - 节点 - 引用 (订阅) - 添加 - 填写标签和资源路径
+5. Quantumult X - 风车 - 节点 - 引用 (订阅) - 右上角添加 - 填写标签和资源路径 (自己的机场订阅链接)
 
 6. Quantumult X - 风车 - misc. - 添加 GeoIP
 
-> GeoIP2-CN 二选一即可
+7. GeoIP2-CN 二选一即可
 > - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)
 > - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)
 

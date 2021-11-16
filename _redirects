@@ -1,5 +1,8 @@
 /x-github https://github.com/smxl/500
 
+/mmdb https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/Country.mmdb
+/ip https://ip.skk.moe/
+
 /xb-mmdb-hh https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
 /xb-mmdb-sc https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb
 
