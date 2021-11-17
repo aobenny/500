@@ -92,6 +92,9 @@ FAQ: 你需要完成手机的基本设置才可以使用 Apple News QX, 比如�
 
 ## 小工具
 
+演示效果:
+- https://500.pages.dev/archive/shu-ipa-hevc.mp4
+
 工具|作用|链接/补充
 -|-|-
 无需重写||
@@ -102,7 +105,7 @@ VIP Video 解析|高可用解析, 在当前窗口播放视频|https://500.pages.
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
 VIP Video 解析|高可用解析, 在当前窗口播放视频|https://v.im
 
-[TikTok 21.0.0 plist removed.ipa](https://transfer.sh/eFAkw1/TikTok%2021.0.0%20plist%20removed.ipa?cYGngGphgS7n) 11.09.2021 实测可用, ipa 已经去除 iTunesMetadata.plist 文件, 请用自己账户下载的 ipa 解压缩后替换
+[TikTok 21.0.0 plist removed.ipa](https://transfer.sh/eFAkw1/TikTok%2021.0.0%20plist%20removed.ipa?cYGngGphgS7n) 11.09.2021 实测可用, ipa 已经去除 iTunesMetadata.plist 文件, 请用自己账户下载的 ipa 用 7zip 打开后替换安装
 
 你可以下载旧版本 [iTunes 12.6.5.3](https://support.apple.com/zh-cn/HT208079) 配合 [iOS旧版应用下载v5.1](https://wwx.lanzoui.com/iBE4Emzgbkj) 抓包或者通过 [Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe) 输入 ```bpu MZBuy.woa``` 添加断点, 手动修改版本 ID 为 ```843820050```
 
